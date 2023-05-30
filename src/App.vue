@@ -1,12 +1,11 @@
 <template>
-  <div class="app-content">
+  <div ref="scrollable" class="app-content">
     <router-view></router-view>
   </div>
 </template>
 
 <script setup lang="ts">
-import { ref, reactive, onMounted } from 'vue'
-
+import { ref, reactive, onMounted, Ref, watch } from 'vue'
 </script>
 
 <style lang="less">

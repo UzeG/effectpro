@@ -19,6 +19,11 @@ const routes: RouteRecordRaw[] = [
                 path: '/sub2',
                 name: 'subPage2',
                 component: () => import('../views/SubPage2.vue'),
+            },
+            {
+                path: '/test',
+                name: 'testPate',
+                component: () => import('../views/TestPage.vue'),
             }
         ]
     }

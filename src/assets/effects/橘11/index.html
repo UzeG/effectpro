@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+    <title>curtains.js | Simple video plane example</title>
+
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    <link rel="stylesheet" href="../base.css">
+
+    <style>
+      .content-text {
+        width: 1000px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="content-text" style="color: #333">
+      化为一龙，二叟共乘之，足下泄泄云起，须臾风雨晦冥，不知所在
+    </div>
+    <div id="curtainjs">
+      <div id="canvas"></div>
+      <div class="wrapper">
+        <div class="curtain">
+          <img
+            src="./img/11.jpg"
+            data-sampler="simplePlaneVideoTexture"
+          ></img>
+        </div>
+      </div>
+    </div>
+    <script src="./js/script.js" type="module"></script>
+  </body>
+</html>

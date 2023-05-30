@@ -14,6 +14,10 @@ export function getEffect(name: string) {
     return new URL(`../assets/effects/${name}`, import.meta.url).href;
 }
 
+export function getAfterEffect(name: string) {
+    return new URL(`../assets/ae/${name}`, import.meta.url).href;
+}
+
 export function gotoLink(url: string) {
     window.open(url, '_blank');
 }
